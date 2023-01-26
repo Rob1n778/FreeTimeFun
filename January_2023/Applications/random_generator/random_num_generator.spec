@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(
-    ['C:\\Dev\\Testing\\source_code\\random_num_generator.py'],
+    ['C:\\git\\Dev\\FreeTimeFun\\January_2023\\source_code\\random_num_generator.py'],
     pathex=[],
     binaries=[],
     datas=[],

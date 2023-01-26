@@ -8,7 +8,7 @@ limit = int(input("How many numbers? ") or (100))
 
 list = [random.randrange(start, end + 1, step) for i in range(limit)]
 
-with open('C:/Dev/Testing/source_code/list.txt', 'w') as f:
+with open('list.txt', 'w') as f:
     f.write(" ".join(str(x) for x in list))
     for i in list:
         print(f"{i}", end=" ")
